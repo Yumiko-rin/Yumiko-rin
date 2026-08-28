@@ -17,9 +17,9 @@
   <!-- GitHub 贡献贪吃蛇动画，需配置 GitHub Action 定期生成 SVG，见底部说明 -->
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/profile-snake-contrib/github-contribution-grid-snake.svg" />
-    <img style="max-width:100%;height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake.svg" />
+    <img style="max-width:100%;height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
   </picture>
 
   <!-- GitHub Metrics 信息卡片，需配置 GitHub Action 生成 SVG，见底部说明 -->
@@ -99,7 +99,4 @@ jobs:
   注意：Metrics 默认推送到仓库根目录的 github-metrics/ 目录下。
   深色版输出 base-dark.svg，浅色版输出 base-light.svg。
   README 中通过 jsdelivr CDN 引用这两个文件，深浅模式自动切换。
--->
-"# Yumiko-rin"  
-"# Yumiko-rin"  
-"# Yumiko-rin" 
+--> 
