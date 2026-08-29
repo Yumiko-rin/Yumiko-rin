@@ -9,11 +9,6 @@
   <!-- 动态打字效果，替换 lines= 后的内容为你想显示的文字，多个用 ; 分隔 -->
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Chewy&pause=1200&color=FF69B4&width=500&lines=Hewwo+Master~+Welcome!;Welcome+to+my+cozy+little+den+%E2%99%A1;Stay+awhile+and+look+around~&center=true&size=32)](https://github.com/Yumiko-rin)
 
-  <!-- 访客计数器 -->
-  <div>
-    <img src="https://komarev.com/ghpvc/?username=Yumiko-rin&label=Views&color=ff69b4&style=flat" alt="访问量统计" />
-  </div>
-
   <div>&nbsp;</div>
 
   <!-- 可爱风装饰插画 + 贪吃蛇（左右装饰图，中间贪吃蛇） -->
@@ -26,6 +21,14 @@
   <img align="right" width="120" alt="右侧可爱装饰" src="https://user-images.githubusercontent.com/74038190/216120986-f2752ca9-fe82-4aa3-befe-0a58db010d85.png" style="border-radius: 12px;" />
 
   <div style="clear: both;"></div>
+  <div>&nbsp;</div>
+
+  <!-- GitHub Metrics 信息卡片，需配置 GitHub Action 生成 SVG，见底部说明 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/github-metrics/base-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/github-metrics/base-light.svg" />
+    <img style="max-width:100%;height:auto;" alt="GitHub Metrics" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/github-metrics/base-dark.svg" />
+  </picture>
 
 </div>
 
