@@ -16,14 +16,14 @@
 
   <div>&nbsp;</div>
 
-  <!-- 装饰插画 + 贪吃蛇（左右装饰图，中间贪吃蛇） -->
-  <img align="left" width="110" alt="左侧装饰" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" style="border-radius: 8px;" />
+  <!-- 可爱风装饰插画 + 贪吃蛇（左右装饰图，中间贪吃蛇） -->
+  <img align="left" width="130" alt="左侧可爱装饰" src="https://cdn.jsdelivr.net/gh/kyechan99/kyechan99/assets/dino_left.gif" style="border-radius: 12px;" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake.svg" />
-    <img style="max-width:calc(100% - 240px);height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
+    <img style="max-width:calc(100% - 280px);height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
   </picture>
-  <img align="right" width="110" alt="右侧装饰" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/Hi.gif" style="border-radius: 8px;" />
+  <img align="right" width="130" alt="右侧可爱装饰" src="https://cdn.jsdelivr.net/gh/kyechan99/kyechan99/assets/dino_right.gif" style="border-radius: 12px;" />
 
   <div style="clear: both;"></div>
   <div>&nbsp;</div>
