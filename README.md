@@ -7,7 +7,7 @@
 <div align="center">
 
   <!-- 动态打字效果，替换 lines= 后的内容为你想显示的文字，多个用 ; 分隔 -->
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Pacifico&pause=1200&color=FF69B4&width=435&lines=%E5%96%B5%E5%91%BC~%E4%B8%BB%E4%BA%BA%E4%BD%A0%E6%9D%A5%E5%95%A6%EF%BC%81;%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%B0%8F%E7%AA%9D~;%E4%BB%8A%E5%A4%A9%E4%B9%9F%E8%A6%81%E5%85%83%E6%B0%94%E6%BB%A1%E6%BB%A1%E5%93%A6(%C2%B0%E2%80%BF%C2%B0)%E2%9C%A8&center=true&size=28)](https://github.com/Yumiko-rin)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Press+Start+2P&pause=1200&color=FF69B4&width=500&lines=%E5%96%B5%E5%91%BC~%E4%B8%BB%E4%BA%BA%E4%BD%A0%E6%9D%A5%E5%95%A6%EF%BC%81;%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%B0%8F%E7%AA%9D~;%E4%BB%8A%E5%A4%A9%E4%B9%9F%E8%A6%81%E5%85%83%E6%B0%94%E6%BB%A1%E6%BB%A1%E5%93%A6%EF%BC%81&center=true&size=20)](https://github.com/Yumiko-rin)
 
   <!-- 访客计数器 -->
   <div>
