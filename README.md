@@ -17,13 +17,13 @@
   <div>&nbsp;</div>
 
   <!-- 装饰插画 + 贪吃蛇（左右装饰图，中间贪吃蛇） -->
-  <img align="left" width="120" alt="左侧装饰" src="https://raw.githubusercontent.com/Platane/snk/master/assets/octocat-1.png" />
+  <img align="left" width="110" alt="左侧装饰" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" style="border-radius: 8px;" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake.svg" />
-    <img style="max-width:calc(100% - 260px);height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
+    <img style="max-width:calc(100% - 240px);height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
   </picture>
-  <img align="right" width="120" alt="右侧装饰" src="https://raw.githubusercontent.com/Platane/snk/master/assets/octocat-2.png" />
+  <img align="right" width="110" alt="右侧装饰" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/Hi.gif" style="border-radius: 8px;" />
 
   <div style="clear: both;"></div>
   <div>&nbsp;</div>
