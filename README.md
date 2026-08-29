@@ -1,26 +1,32 @@
 <!-- ============================================================ -->
-
 <!-- GitHub 个人主页 README                                        -->
-
 <!-- 使用方法：创建与 GitHub 用户名同名的仓库 Yumiko-rin/Yumiko-rin -->
-
 <!-- 将此文件作为 README.md 推送上去即可。                          -->
-
 <!-- ============================================================ -->
 
 <div align="center">
 
   <!-- 动态打字效果，替换 lines= 后的内容为你想显示的文字，多个用 ; 分隔 -->
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C+World%22);%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%BB%E9%A1%B5!&center=true&size=27)](https://github.com/Yumiko-rin)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&pause=1000\&width=435\&lines=console.log\(%22Hello%2C+World%22\);%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%BB%E9%A1%B5!\&center=true\&size=27)](https://github.com/Yumiko-rin)
+  <!-- 访客计数器 -->
+  <div>
+    <img src="https://komarev.com/ghpvc/?username=Yumiko-rin&label=Views&color=orange&style=flat" alt="访问量统计" />
+  </div>
 
-  <!-- GitHub 贡献贪吃蛇动画，需配置 GitHub Action 定期生成 SVG，见底部说明 -->
+  <div>&nbsp;</div>
 
+  <!-- 装饰插画 + 贪吃蛇（左右装饰图，中间贪吃蛇） -->
+  <img align="left" width="120" alt="左侧装饰" src="https://raw.githubusercontent.com/Platane/snk/master/assets/octocat-1.png" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake.svg" />
-    <img style="max-width:100%;height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
+    <img style="max-width:calc(100% - 260px);height:auto;" alt="GitHub贡献贪吃蛇" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
   </picture>
+  <img align="right" width="120" alt="右侧装饰" src="https://raw.githubusercontent.com/Platane/snk/master/assets/octocat-2.png" />
+
+  <div style="clear: both;"></div>
+  <div>&nbsp;</div>
 
   <!-- GitHub Metrics 信息卡片，需配置 GitHub Action 生成 SVG，见底部说明 -->
   <picture>
@@ -43,17 +49,19 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/sink@main
+      - uses: Platane/snk@v3
         with:
           github_user_name: Yumiko-rin
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.svg?palette=github-light
-      - uses: crazy-max/ghaction-github-pages@v3
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
@@ -99,4 +107,4 @@ jobs:
   注意：Metrics 默认推送到仓库根目录的 github-metrics/ 目录下。
   深色版输出 base-dark.svg，浅色版输出 base-light.svg。
   README 中通过 jsdelivr CDN 引用这两个文件，深浅模式自动切换。
---> 
+-->
