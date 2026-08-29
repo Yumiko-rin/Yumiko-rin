@@ -17,7 +17,7 @@
   <div>&nbsp;</div>
 
   <!-- 可爱风装饰插画 + 贪吃蛇（左右装饰图，中间贪吃蛇） -->
-  <img align="left" width="120" alt="左侧可爱装饰" src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" style="border-radius: 12px;" />
+  <img align="left" width="120" alt="左侧可爱装饰" src="https://user-images.githubusercontent.com/74038190/216120986-f2752ca9-fe82-4aa3-befe-0a58db010d85.png" style="border-radius: 12px;" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake.svg" />
