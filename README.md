@@ -26,14 +26,6 @@
   <img align="right" width="120" alt="右侧可爱装饰" src="https://user-images.githubusercontent.com/74038190/216120986-f2752ca9-fe82-4aa3-befe-0a58db010d85.png" style="border-radius: 12px;" />
 
   <div style="clear: both;"></div>
-  <div>&nbsp;</div>
-
-  <!-- GitHub Metrics 信息卡片，需配置 GitHub Action 生成 SVG，见底部说明 -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/github-metrics/base-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/github-metrics/base-light.svg" />
-    <img style="max-width:100%;height:auto;" alt="GitHub Metrics" src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin/github-metrics/base-dark.svg" />
-  </picture>
 
 </div>
 
