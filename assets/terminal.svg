@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-label="打字机终端动画">
+  <defs>
+    <clipPath id="c1"><rect x="40" y="58" width="0" height="20"><animate id="a1" attributeName="width" begin="0.6s;o5.end+4s" dur="0.5s" from="0" to="52" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="114" width="0" height="20"><animate id="a2" attributeName="width" begin="o1.end+0.35s" dur="1.0s" from="0" to="112" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="170" width="0" height="20"><animate id="a3" attributeName="width" begin="o2.end+0.35s" dur="0.8s" from="0" to="86" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="226" width="0" height="20"><animate id="a4" attributeName="width" begin="o3.end+0.5s" dur="1.5s" from="0" to="172" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="282" width="0" height="20"><animate id="a5" attributeName="width" begin="o4.end+0.35s" dur="0.5s" from="0" to="52" fill="freeze"/></rect></clipPath>
+    <linearGradient id="tbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#12181f"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family:'Cascadia Code','JetBrains Mono','Consolas','Courier New',monospace; }
+    .cmd  { font-size:14px; fill:#e6edf3; }
+    .out  { font-size:14px; fill:#8b949e; }
+    .ps1  { font-size:14px; fill:#39d2c0; font-weight:bold; }
+    .cursor { fill:#39d2c0; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,55% { opacity:1; } 56%,100% { opacity:0; } }
+    .traffic { animation: none; }
+  </style>
+
+  <!-- 窗体 -->
+  <rect x="1" y="1" width="758" height="338" rx="10" fill="#0d1117" stroke="#2b3d52" stroke-width="2"/>
+  <!-- 标题栏 -->
+  <path d="M1,37 v-26 a10,10 0 0 1 10,-10 h736 a10,10 0 0 1 10,10 v26 z" fill="url(#tbar)"/>
+  <line x1="1" y1="37" x2="759" y2="37" stroke="#2b3d52" stroke-width="1.5"/>
+  <circle cx="26" cy="19" r="5.5" fill="#ff5f56"/>
+  <circle cx="46" cy="19" r="5.5" fill="#ffbd2e"/>
+  <circle cx="66" cy="19" r="5.5" fill="#27c93f"/>
+  <text class="mono" x="380" y="24" text-anchor="middle" font-size="12" fill="#8b949e">zsh — dev@github: ~</text>
+
+  <!-- 逐行内容 -->
+  <!-- 1. whoami -->
+  <text class="mono ps1" x="24" y="72">$</text>
+  <text class="mono cmd" x="40" y="72" clip-path="url(#c1)">whoami</text>
+  <text class="mono out" x="40" y="96" opacity="0"><animate id="o1" attributeName="opacity" begin="a1.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#58a6ff">Yumiko-rin</tspan> — 一名热爱造轮子的开发者</text>
+
+  <!-- 2. cat motto.txt -->
+  <text class="mono ps1" x="24" y="128">$</text>
+  <text class="mono cmd" x="40" y="128" clip-path="url(#c2)">cat motto.txt</text>
+  <text class="mono out" x="40" y="152" opacity="0"><animate id="o2" attributeName="opacity" begin="a2.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#39d2c0">「 Talk is cheap. Show me the code. 」</tspan></text>
+
+  <!-- 3. ls skills/ -->
+  <text class="mono ps1" x="24" y="184">$</text>
+  <text class="mono cmd" x="40" y="184" clip-path="url(#c3)">ls skills/</text>
+  <text class="mono out" x="40" y="208" opacity="0"><animate id="o3" attributeName="opacity" begin="a3.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#ff7b72">C++</tspan>&#160;&#160;&#160;<tspan fill="#39d2c0">Python</tspan>&#160;&#160;&#160;<tspan fill="#ffb86c">JavaScript</tspan>&#160;&#160;&#160;<tspan fill="#58a6ff">Go</tspan>&#160;&#160;&#160;<tspan fill="#bc8cff">React</tspan></text>
+
+  <!-- 4. git push -->
+  <text class="mono ps1" x="24" y="240">$</text>
+  <text class="mono cmd" x="40" y="240" clip-path="url(#c4)">git push origin main</text>
+  <text class="mono out" x="40" y="264" opacity="0"><animate id="o4" attributeName="opacity" begin="a4.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#3fb950">✔ 已推送 1,024 个提交</tspan><tspan fill="#8b949e"> (force with love)</tspan></text>
+
+  <!-- 5. uptime -->
+  <text class="mono ps1" x="24" y="296">$</text>
+  <text class="mono cmd" x="40" y="296" clip-path="url(#c5)">uptime</text>
+  <text class="mono out" x="40" y="320" opacity="0"><animate id="o5" attributeName="opacity" begin="a5.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/>coding: <tspan fill="#58a6ff">1024 days</tspan> · coffee: <tspan fill="#ffb86c">∞ cups</tspan> · passion: <tspan fill="#ff7b72">still burning</tspan></text>
+
+  <!-- 跟随光标 -->
+  <rect class="cursor" x="40" y="60" width="8" height="16">
+    <animate attributeName="x" begin="0.6s;o5.end+4s" dur="0.5s" from="40" to="92" fill="freeze"/>
+    <animate attributeName="x" begin="o1.end+0.35s" dur="1.0s" from="40" to="152" fill="freeze"/>
+    <animate attributeName="x" begin="o2.end+0.35s" dur="0.8s" from="40" to="126" fill="freeze"/>
+    <animate attributeName="x" begin="o3.end+0.5s" dur="1.5s" from="40" to="212" fill="freeze"/>
+    <animate attributeName="x" begin="o4.end+0.35s" dur="0.5s" from="40" to="92" fill="freeze"/>
+    <set attributeName="y" to="60"  begin="0.6s;o5.end+4s"/>
+    <set attributeName="y" to="116" begin="o1.end+0.35s"/>
+    <set attributeName="y" to="172" begin="o2.end+0.35s"/>
+    <set attributeName="y" to="228" begin="o3.end+0.5s"/>
+    <set attributeName="y" to="284" begin="o4.end+0.35s"/>
+  </rect>
+</svg>

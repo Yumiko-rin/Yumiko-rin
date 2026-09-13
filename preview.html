@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>主页动画素材预览 · 深空夜航</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --card: #f6f8fa;
+    --text: #1f2328;
+    --dim: #57606a;
+    --line: #d0d7de;
+  }
+  html.dark {
+    --bg: #0d1117;
+    --card: #161b22;
+    --text: #e6edf3;
+    --dim: #8b949e;
+    --line: #2b3d52;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+    transition: background .3s, color .3s;
+    padding-bottom: 80px;
+  }
+  header {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 28px;
+    background: var(--card);
+    border-bottom: 1px solid var(--line);
+  }
+  header h1 { font-size: 16px; font-weight: 600; }
+  header p { font-size: 12px; color: var(--dim); margin-top: 2px; }
+  #toggle {
+    border: 1px solid var(--line); background: var(--bg); color: var(--text);
+    padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 13px;
+  }
+  #toggle:hover { border-color: #39d2c0; color: #39d2c0; }
+  main { max-width: 1000px; margin: 0 auto; padding: 28px 20px; }
+  .item { margin: 40px 0; }
+  .item h2 { font-size: 14px; color: var(--dim); letter-spacing: 1px; margin-bottom: 10px; }
+  .item h2 code { color: #39d2c0; }
+  .frame {
+    background: var(--card);
+    border: 1px dashed var(--line);
+    border-radius: 12px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .frame img { max-width: 100%; height: auto; }
+  .note {
+    margin-top: 30px; padding: 14px 18px; border-radius: 10px;
+    background: var(--card); border-left: 3px solid #39d2c0;
+    font-size: 13px; color: var(--dim); line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>主页动画素材预览</h1>
+    <p>深空夜航主题 · 全部为手写 SVG，切换右上角明暗模式检查双主题效果</p>
+  </div>
+  <button id="toggle">🌙 切换暗色</button>
+</header>
+<main>
+  <div class="item">
+    <h2>横幅 <code>banner.svg</code>（星空呼吸 · 流星 · 巡航火箭 · 天际线）</h2>
+    <div class="frame"><img src="assets/banner.svg" alt="banner"></div>
+  </div>
+  <div class="item">
+    <h2>终端打字机 <code>terminal.svg</code>（逐字输入 · 光标跟随 · 自动循环）</h2>
+    <div class="frame"><img src="assets/terminal.svg" alt="terminal"></div>
+  </div>
+  <div class="item">
+    <h2>深夜编程场景 <code>coding-scene.svg</code>（代码滚动 · 咖啡热气 · 摇尾巴的猫 · 流星）</h2>
+    <div class="frame"><img src="assets/coding-scene.svg" alt="coding scene"></div>
+  </div>
+  <div class="item">
+    <h2>火箭与星球 <code>rocket.svg</code> + <code>planet.svg</code></h2>
+    <div class="frame">
+      <img src="assets/rocket.svg" width="240" alt="rocket" style="border-radius:50%">
+      <img src="assets/planet.svg" width="380" alt="planet">
+    </div>
+  </div>
+  <div class="item">
+    <h2>波浪分隔线 <code>wave-dark.svg</code> / <code>wave-light.svg</code>（视差滚动）</h2>
+    <div class="frame"><img src="assets/wave-light.svg" width="920" alt="wave light" id="wave"></div>
+  </div>
+  <div class="item">
+    <h2>页脚 <code>footer.svg</code>（流光标题 · 心跳 · 流星）</h2>
+    <div class="frame"><img src="assets/footer.svg" alt="footer"></div>
+  </div>
+  <div class="note">
+    💡 统计卡、贪吃蛇、metrics 等在线卡片无法本地预览，需按 <b>SETUP.md</b> 推送到 GitHub 后才能看到；
+    本页仅用于检查自制动画的明暗主题兼容性。
+  </div>
+</main>
+<script>
+  const btn = document.getElementById('toggle');
+  const wave = document.getElementById('wave');
+  btn.addEventListener('click', () => {
+    const dark = document.documentElement.classList.toggle('dark');
+    btn.textContent = dark ? '☀️ 切换亮色' : '🌙 切换暗色';
+    wave.src = dark ? 'assets/wave-dark.svg' : 'assets/wave-light.svg';
+  });
+</script>
+</body>
+</html>

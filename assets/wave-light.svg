@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="波浪分隔线">
+  <style>
+    .back  { animation: drift 11s linear infinite; }
+    .front { animation: drift 6.5s linear infinite; }
+    @keyframes drift { from { transform:translateX(0); } to { transform:translateX(-300px); } }
+  </style>
+  <!-- 后层浪 -->
+  <path class="back" fill="#1f6feb" fill-opacity="0.14" d="M0,64 C50,24 100,24 150,64 C200,104 250,104 300,64 C350,24 400,24 450,64 C500,104 550,104 600,64 C650,24 700,24 750,64 C800,104 850,104 900,64 C950,24 1000,24 1050,64 C1100,104 1150,104 1200,64 C1250,24 1300,24 1350,64 C1400,104 1450,104 1500,64 L1500,100 L0,100 Z"/>
+  <!-- 前层浪 -->
+  <path class="front" fill="#2ea8a0" fill-opacity="0.28" d="M0,64 C50,104 100,104 150,64 C200,24 250,24 300,64 C350,104 400,104 450,64 C500,24 550,24 600,64 C650,104 700,104 750,64 C800,24 850,24 900,64 C950,104 1000,104 1050,64 C1100,24 1150,24 1200,64 C1250,104 1300,104 1350,64 C1400,24 1450,24 1500,64 L1500,100 L0,100 Z"/>
+</svg>

@@ -1,29 +1,33 @@
+# Metrics：每天自动生成 GitHub 数据全景卡（含 3D 等距提交日历、语言、成就）
+# ⚠ 需要在仓库 Settings → Secrets → Actions 中配置 METRICS_TOKEN（classic PAT）
 name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "30 16 * * *" # UTC 16:30 = 北京时间 0:30
   workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Dark theme metrics
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics/base-dark.svg
-          base: header, activity, community, repositories, metadata
+          filename: github-metrics/base.svg
+          output_action: commit
           config_timezone: Asia/Shanghai
-          config_display: large
-
-      - name: Light theme metrics
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics/base-light.svg
+          # 基础板块
           base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Shanghai
-          config_display: large
-          output_base: ""
+          # 语言构成
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: bytes-shaped, percentage
+          # 成就徽章
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          # 3D 等距提交日历（自带旋转动画）
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
