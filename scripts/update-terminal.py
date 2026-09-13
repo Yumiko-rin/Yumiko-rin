@@ -39,7 +39,14 @@ def api(url):
 
 def trunc(s, n):
     s = (s or "").strip()
-    return s if len(s) <= n else s[: n - 1] + "…"
+    if len(s) <= n:
+        return s
+    cut = s[: n - 1]
+    if " " in cut[8:]:  # 在最后一个空格处断词，避免英文单词被截半
+        head, _, _ = cut.rpartition(" ")
+        if len(head) >= 8:
+            cut = head
+    return cut + "…"
 
 
 def build_badge(pushed: str) -> str:

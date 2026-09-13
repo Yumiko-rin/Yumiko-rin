@@ -79,6 +79,21 @@
 
 ## 🧸 项目与小站
 
+<a href="https://github.com/Yumiko-rin/douyin-spark-keeper"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-douyin-spark-keeper-dark.svg">
+  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-douyin-spark-keeper-light.svg" width="460" alt="douyin-spark-keeper 项目卡片" />
+</picture></a>
+
+<a href="https://github.com/Yumiko-rin/watchowl"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-watchowl-dark.svg">
+  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-watchowl-light.svg" width="460" alt="watchowl 项目卡片" />
+</picture></a>
+
+<a href="https://github.com/Yumiko-rin/md2card"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-md2card-dark.svg">
+  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-md2card-light.svg" width="460" alt="md2card 项目卡片" />
+</picture></a>
+
 <a href="https://github.com/Yumiko-rin/dafeiyu-pet"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-dafeiyu-pet-dark.svg">
   <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-dafeiyu-pet-light.svg" width="460" alt="dafeiyu-pet 项目卡片" />
