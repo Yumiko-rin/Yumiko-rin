@@ -1,8 +1,13 @@
-# Metrics：每天自动生成 GitHub 数据全景卡（含 3D 等距提交日历、语言、成就）
-# ⚠ 需要在仓库 Settings → Secrets → Actions 中配置 METRICS_TOKEN（classic PAT）
+# Metrics：自动生成 GitHub 数据卡（全部自托管，走 jsDelivr 分发，不依赖第三方托管服务）
+# 推送到 main / 每日定时 / 手动触发 均会更新
+# ⚠ 需要在仓库 Settings → Secrets → Actions 中配置 METRICS_TOKEN（classic PAT，含 repo、read:user）
 name: GitHub Metrics
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "github-metrics/**" # 防止 workflow 自己的提交再次触发
   schedule:
     - cron: "30 16 * * *" # UTC 16:30 = 北京时间 0:30
   workflow_dispatch:
@@ -13,21 +18,55 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # ① 数据全景：头部统计、活动、社区、仓库（语言/成就/3D 日历见下方独立卡片）
+      - name: base.svg —— 数据全景
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics/base.svg
           output_action: commit
+          output_timestamps_cache: none
           config_timezone: Asia/Shanghai
-          # 基础板块
           base: header, activity, community, repositories, metadata
-          # 语言构成
+
+      # ② 语言构成（独立卡片）
+      - name: languages.svg —— 语言构成
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/languages.svg
+          output_action: commit
+          output_timestamps_cache: none
+          config_timezone: Asia/Shanghai
+          base: ""
           plugin_languages: yes
           plugin_languages_limit: 8
-          plugin_languages_details: bytes-shaped, percentage
-          # 成就徽章
+          plugin_languages_details: percentage
+          plugin_languages_colors: rainbow
+
+      # ③ 成就墙（独立卡片，详细模式）
+      - name: achievements.svg —— 成就墙
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/achievements.svg
+          output_action: commit
+          output_timestamps_cache: none
+          config_timezone: Asia/Shanghai
+          base: ""
           plugin_achievements: yes
-          plugin_achievements_display: compact
-          # 3D 等距提交日历（自带旋转动画）
+          plugin_achievements_display: detailed
+          plugin_achievements_threshold: C
+
+      # ④ 3D 提交日历（独立卡片，自带旋转动画）
+      - name: isocalendar.svg —— 3D 提交日历
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics/isocalendar.svg
+          output_action: commit
+          output_timestamps_cache: none
+          config_timezone: Asia/Shanghai
+          base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year

@@ -30,11 +30,11 @@ git push -u origin main
 
 ### 第 3 步 · 激活两个自动化（让蛇和 metrics 动起来）
 
-1. **贪吃蛇（零配置）**：仓库 → Actions → `Generate Snake` → Enable workflow → 右侧 `Run workflow` 手动跑一次；
-2. **Metrics（需要一个 Token）**：
+1. **Metrics（需要一个 Token）**：
    - 打开 [Generate new token (classic)](https://github.com/settings/tokens/new?scopes=repo,read:user)，勾选 `repo` 和 `read:user`，生成后复制；
    - 仓库 → Settings → Secrets and variables → Actions → New repository secret，名称填 `METRICS_TOKEN`，值为刚才的 token；
-   - Actions 里手动跑一次 `GitHub Metrics`。
+   - 配置好后，**每次推送 main 会自动生成**（也支持每日定时与手动触发），生成 4 张自托管数据卡到 `github-metrics/`；
+2. **贪吃蛇（零配置）**：仓库 → Actions → `Generate Snake` → Enable workflow → 右侧 `Run workflow` 手动跑一次（之后每日自动更新）。
 
 两者首次运行后，刷新个人主页即可看到贪吃蛇和数据卡（jsDelivr 缓存约 12 小时，等不及见下方 FAQ）。
 
@@ -61,7 +61,7 @@ git push -u origin main
 
 ### 换统计卡主题
 
-把 URL 里的 `theme=tokyonight` / `theme=default` 换成任意[可用主题](https://github.com/anuraghazra/github-readme-stats#themes)（如 `dracula`、`algolia`）。
+连续提交卡（streak-stats）把 URL 里的 `theme=tokyonight` / `theme=default` 换成任意[可用主题](https://github.com/JuliaCiubotariu/git-heat-map#readme)即可；其余统计卡由本仓库 workflow 自行生成，样式可在 `metrics.yml` 里调整插件参数。
 
 ### 修改技术栈图标
 
@@ -83,7 +83,10 @@ GitHub 的图片代理会缓存，等缓存过期或用上面的 purge 链接刷
 `output` 分支还没生成。去 Actions 手动跑一次 `Generate Snake`，确认运行成功后再刷新缓存。
 
 **Q：Metrics 卡片报错？**
-检查 `METRICS_TOKEN` 是否过期（classic PAT 默认 30 天，可在生成时设 No expiration），以及是否包含 `repo` 和 `read:user` 权限。
+检查 `METRICS_TOKEN` 是否过期（classic PAT 默认 30 天，可在生成时设 No expiration），以及是否包含 `repo` 和 `read:user` 权限。到仓库 Actions 页查看 `GitHub Metrics` 最近一次运行日志定位原因。
+
+**Q：为什么不用 github-readme-stats / trophy 这类在线统计卡？**
+它们托管在 vercel.app 公共实例上，长期存在限流与间歇性不可用问题（README 上会随机裂图）。本主页改用 GitHub Actions 在自己仓库里生成数据卡（`github-metrics/` 目录），经 jsDelivr 分发，100% 稳定且数据更丰富。
 
 **Q：如何预览明暗两种主题？**
 GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html`，右上角可切换明暗。

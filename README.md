@@ -81,33 +81,25 @@
 ## 📊 GitHub 统计
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Yumiko-rin&show_icons=true&hide_border=true&bg_color=00000000&theme=tokyonight&include_all_commits=true&count_private=true">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yumiko-rin&show_icons=true&hide_border=true&bg_color=00000000&theme=default&include_all_commits=true&count_private=true" width="395" alt="GitHub 统计卡" />
-</picture>
-&nbsp;
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Yumiko-rin&hide_border=true&background=00000000&theme=tokyonight">
-  <img src="https://streak-stats.demolab.com?user=Yumiko-rin&hide_border=true&background=00000000&theme=default" width="395" alt="连续提交统计" />
+  <img src="https://streak-stats.demolab.com?user=Yumiko-rin&hide_border=true&background=00000000&theme=default" width="420" alt="连续提交统计" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Yumiko-rin&hide_border=true&bg_color=00000000&theme=tokyonight&layout=compact&langs_count=8">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yumiko-rin&hide_border=true&bg_color=00000000&theme=default&layout=compact&langs_count=8" width="480" alt="常用语言统计" />
-</picture>
+### 🧬 数据全景（每日自动生成）
 
-### 📈 提交活动图
+<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/base.svg" width="100%" alt="GitHub 数据全景" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Yumiko-rin&hide_border=true&theme=tokyonight&area=true">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yumiko-rin&hide_border=true&theme=github&area=true" width="830" alt="提交活动图" />
-</picture>
+### 🈯 语言构成
+
+<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/languages.svg" width="460" alt="语言构成" />
 
 ### 🏆 成就墙
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Yumiko-rin&row=1&column=7&theme=onedark&no-frame=true&margin-w=8">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yumiko-rin&row=1&column=7&theme=flat&no-frame=true&margin-w=8" width="100%" alt="成就奖杯" />
-</picture>
+<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/achievements.svg" width="100%" alt="成就墙" />
+
+### 📅 3D 提交日历
+
+<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/isocalendar.svg" width="520" alt="3D 提交日历" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
@@ -122,10 +114,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg">
   <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake.svg" width="100%" alt="贡献贪吃蛇" />
 </picture>
-
-### 🧬 实时数据全景
-
-<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/base.svg" width="100%" alt="Metrics 数据卡" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
