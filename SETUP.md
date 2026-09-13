@@ -97,6 +97,8 @@ GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html
 ├── README.md                 # 主页本体（推送到 GitHub 后自动展示）
 ├── SETUP.md                  # 本文件
 ├── preview.html              # 本地动画预览页（不会被主页引用）
+├── scripts/
+│   └── update-terminal.py    # 终端动画数据自动更新脚本（每日定时执行）
 ├── assets/                   # 全部手写动画 SVG（均明暗自适应）
 │   ├── terminal-dark.svg     # 终端打字机（暗色）
 │   ├── terminal-light.svg    # 终端打字机（亮色）
@@ -106,5 +108,6 @@ GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html
 │   └── footer-light.svg      # 页脚（亮色主题）
 └── .github/workflows/
     ├── snake.yml             # 每日生成贪吃蛇 → output 分支
-    └── metrics.yml           # 每日生成数据卡 → github-metrics/
+    ├── metrics.yml           # 每日生成数据卡 → github-metrics/
+    └── terminal-stats.yml    # 每日更新终端动画里的提交数与天数
 ```

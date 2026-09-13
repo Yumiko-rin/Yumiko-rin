@@ -1,0 +1,33 @@
+# 终端数据自动更新：每天取真实提交数与加入天数，改写终端动画 SVG 并提交
+name: Update Terminal Stats
+
+on:
+  schedule:
+    - cron: "0 16 * * *" # UTC 16:00 = 北京时间 0:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update numbers in terminal SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python3 scripts/update-terminal.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "Yumiko-rin"
+          git config user.email "jaychou8421@gmail.com"
+          if git diff --quiet; then
+            echo "numbers unchanged, skip"
+            exit 0
+          fi
+          git add assets/terminal-*.svg
+          git commit -m "chore: 终端数据自动更新"
+          git push

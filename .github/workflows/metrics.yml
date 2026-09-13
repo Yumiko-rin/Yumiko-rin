@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths-ignore:
       - "github-metrics/**" # 防止 workflow 自己的提交再次触发
+      - "assets/**" # 终端数据更新不涉及数据卡
   schedule:
     - cron: "30 16 * * *" # UTC 16:30 = 北京时间 0:30
   workflow_dispatch:
