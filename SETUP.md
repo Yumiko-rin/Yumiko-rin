@@ -46,7 +46,7 @@ git push -u origin main
 
 | 文件 | 内容 | 常见改动 |
 |---|---|---|
-| `terminal.svg` | 终端打字机：逐字输入 + 光标跟随 + 循环 | 改"命令"请同步调整对应 `clipPath` 里的 `to="宽度"`（每字符约 8.4px） |
+| `terminal-dark/light.svg` | 终端打字机：逐字输入 + 光标跟随 + 循环（明/暗自适应） | 改"命令"请同步调整对应 `clipPath` 里的 `to="宽度"`（每字符约 8.4px） |
 | `wave-dark/light.svg` | 波浪分隔线（明/暗自适应） | 改 `fill` 色值 |
 | `footer-dark/light.svg` | 页脚：THANKS FOR VISITING + 心跳（明/暗自适应） | 改文字即可 |
 
@@ -97,8 +97,9 @@ GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html
 ├── README.md                 # 主页本体（推送到 GitHub 后自动展示）
 ├── SETUP.md                  # 本文件
 ├── preview.html              # 本地动画预览页（不会被主页引用）
-├── assets/                   # 全部手写动画 SVG
-│   ├── terminal.svg          # 终端打字机
+├── assets/                   # 全部手写动画 SVG（均明暗自适应）
+│   ├── terminal-dark.svg     # 终端打字机（暗色）
+│   ├── terminal-light.svg    # 终端打字机（亮色）
 │   ├── wave-dark.svg         # 波浪（暗色主题）
 │   ├── wave-light.svg        # 波浪（亮色主题）
 │   ├── footer-dark.svg       # 页脚（暗色主题）

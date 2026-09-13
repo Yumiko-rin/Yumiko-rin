@@ -74,8 +74,8 @@
 </header>
 <main>
   <div class="item">
-    <h2>终端打字机 <code>terminal.svg</code>（逐字输入 · 光标跟随 · 自动循环 · 仅暗色版）</h2>
-    <div class="frame"><img src="assets/terminal.svg" alt="terminal"></div>
+    <h2>终端打字机 <code>terminal-dark.svg</code> / <code>terminal-light.svg</code>（逐字输入 · 光标跟随 · 自动循环 · 明暗自适应）</h2>
+    <div class="frame"><img src="assets/terminal-light.svg" width="760" alt="terminal light" id="terminal"></div>
   </div>
   <div class="item">
     <h2>波浪分隔线 <code>wave-dark.svg</code> / <code>wave-light.svg</code>（视差滚动 · 明暗自适应）</h2>
@@ -94,11 +94,13 @@
   const btn = document.getElementById('toggle');
   const wave = document.getElementById('wave');
   const footer = document.getElementById('footer');
+  const terminal = document.getElementById('terminal');
   btn.addEventListener('click', () => {
     const dark = document.documentElement.classList.toggle('dark');
     btn.textContent = dark ? '☀️ 切换亮色' : '🌙 切换暗色';
     wave.src = dark ? 'assets/wave-dark.svg' : 'assets/wave-light.svg';
     footer.src = dark ? 'assets/footer-dark.svg' : 'assets/footer-light.svg';
+    terminal.src = dark ? 'assets/terminal-dark.svg' : 'assets/terminal-light.svg';
   });
 </script>
 </body>
