@@ -97,12 +97,16 @@ def build_card(repo: dict, variant: str) -> str:
 changed = []
 
 # ① 终端动画：提交总数 + 加入天数
+# 提交数取自每日 metrics 生成的数据全景卡（含私有仓库贡献，与主页展示一致）
 days = (date.today() - JOINED).days
 commits = None
 try:
-    commits = api(f"https://api.github.com/search/commits?q=author:{OWNER}&per_page=1").get("total_count")
-except Exception as e:  # API 失败时天数照常更新，提交数保留旧值
-    print(f"warn: fetch commits failed ({e}), keep old value")
+    with open("github-metrics/base.svg", encoding="utf-8") as f:
+        m = re.search(r"(\d[\d,]*)\s*Commits", f.read())
+    if m:
+        commits = int(m.group(1).replace(",", ""))
+except Exception as e:
+    print(f"warn: parse commits from base.svg failed ({e}), keep old value")
 
 for name in TERMINALS:
     with open(name, encoding="utf-8") as f:

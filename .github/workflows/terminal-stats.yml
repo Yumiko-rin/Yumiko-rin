@@ -3,7 +3,7 @@ name: Update Terminal Stats
 
 on:
   schedule:
-    - cron: "0 16 * * *" # UTC 16:00 = 北京时间 0:00
+    - cron: "45 16 * * *" # UTC 16:45 = 北京时间 0:45（在 metrics 0:30 之后，读取当天新鲜数据）
   workflow_dispatch:
 
 permissions:
