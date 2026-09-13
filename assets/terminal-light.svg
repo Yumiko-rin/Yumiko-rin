@@ -50,7 +50,7 @@
   <!-- 4. git push -->
   <text class="mono ps1" x="24" y="240">$</text>
   <text class="mono cmd" x="40" y="240" clip-path="url(#c4)">git push origin main</text>
-  <text class="mono out" x="40" y="264" opacity="0"><animate id="o4" attributeName="opacity" begin="a4.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#1a7f37">✔ 已推送 226+ 个提交</tspan><tspan fill="#57606a"> (force with love)</tspan></text>
+  <text class="mono out" x="40" y="264" opacity="0"><animate id="o4" attributeName="opacity" begin="a4.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#1a7f37">✔ 已推送 27+ 个提交</tspan><tspan fill="#57606a"> (force with love)</tspan></text>
 
   <!-- 5. uptime -->
   <text class="mono ps1" x="24" y="296">$</text>
