@@ -46,12 +46,9 @@ git push -u origin main
 
 | 文件 | 内容 | 常见改动 |
 |---|---|---|
-| `banner.svg` | 顶部横幅：星空、流星、巡航火箭、城市天际线 | 标题文字在底部 `<text>` 区；配色搜索 `#39d2c0` 等色值全局替换 |
 | `terminal.svg` | 终端打字机：逐字输入 + 光标跟随 + 循环 | 改"命令"请同步调整对应 `clipPath` 里的 `to="宽度"`（每字符约 8.4px） |
-| `coding-scene.svg` | 深夜编程场景：滚动的代码、咖啡热气、猫、流星 | 代码条是若干 `<rect class="code">`，改宽度/颜色即可 |
-| `rocket.svg` / `planet.svg` | 火箭飞行、带环星球 | 纯装饰，一般不用动 |
-| `wave-dark/light.svg` | 波浪分隔线（明/暗） | 改 `fill` 色值 |
-| `footer.svg` | 页脚：THANKS FOR VISITING + 心跳 | 改文字即可 |
+| `wave-dark/light.svg` | 波浪分隔线（明/暗自适应） | 改 `fill` 色值 |
+| `footer-dark/light.svg` | 页脚：THANKS FOR VISITING + 心跳（明/暗自适应） | 改文字即可 |
 
 统一色板：背景 `#0d1117` · 青 `#39d2c0` · 蓝 `#58a6ff` · 琥珀 `#ffb86c` · 红 `#ff7b72` · 灰 `#8b949e`
 
@@ -101,14 +98,11 @@ GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html
 ├── SETUP.md                  # 本文件
 ├── preview.html              # 本地动画预览页（不会被主页引用）
 ├── assets/                   # 全部手写动画 SVG
-│   ├── banner.svg            # 横幅：星空·流星·火箭·天际线
 │   ├── terminal.svg          # 终端打字机
-│   ├── coding-scene.svg      # 深夜编程场景
-│   ├── rocket.svg            # 火箭
-│   ├── planet.svg            # 星球与卫星
 │   ├── wave-dark.svg         # 波浪（暗色主题）
 │   ├── wave-light.svg        # 波浪（亮色主题）
-│   └── footer.svg            # 页脚
+│   ├── footer-dark.svg       # 页脚（暗色主题）
+│   └── footer-light.svg      # 页脚（亮色主题）
 └── .github/workflows/
     ├── snake.yml             # 每日生成贪吃蛇 → output 分支
     └── metrics.yml           # 每日生成数据卡 → github-metrics/

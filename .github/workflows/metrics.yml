@@ -44,21 +44,7 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_colors: rainbow
 
-      # ③ 成就墙（独立卡片，详细模式）
-      - name: achievements.svg —— 成就墙
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics/achievements.svg
-          output_action: commit
-          output_timestamps_cache: none
-          config_timezone: Asia/Shanghai
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
-
-      # ④ 3D 提交日历（独立卡片，自带旋转动画）
+      # ③ 3D 提交日历（独立卡片，自带旋转动画）
       - name: isocalendar.svg —— 3D 提交日历
         uses: lowlighter/metrics@latest
         with:
