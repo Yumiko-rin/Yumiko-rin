@@ -105,7 +105,8 @@ GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html
 │   ├── wave-dark.svg         # 波浪（暗色主题）
 │   ├── wave-light.svg        # 波浪（亮色主题）
 │   ├── footer-dark.svg       # 页脚（暗色主题）
-│   └── footer-light.svg      # 页脚（亮色主题）
+│   ├── footer-light.svg      # 页脚（亮色主题）
+│   └── badge-dafeiyu.svg     # 项目最近更新日期徽章（脚本自动生成）
 └── .github/workflows/
     ├── snake.yml             # 每日生成贪吃蛇 → output 分支
     ├── metrics.yml           # 每日生成数据卡 → github-metrics/

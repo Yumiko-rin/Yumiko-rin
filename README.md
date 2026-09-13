@@ -84,7 +84,7 @@
 | 🐟 **[dafeiyu-pet](https://github.com/Yumiko-rin/dafeiyu-pet)** | 肥肥胖胖的大肥鱼 —— 一只 Python 写的小宠物 · MIT 开源 |
 | 🎵 **[喵音小筑](https://bob-35z.pages.dev/)** | 我的个人博客，记录代码与生活 |
 
-<img src="https://img.shields.io/github/last-commit/Yumiko-rin/dafeiyu-pet?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交" />
+<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/badge-dafeiyu.svg" alt="最近更新" />
 &nbsp;
 <img src="https://img.shields.io/github/license/Yumiko-rin/dafeiyu-pet?style=flat-square&label=%E8%AE%B8%E5%8F%AF%E8%AF%81" alt="许可证" />
 
