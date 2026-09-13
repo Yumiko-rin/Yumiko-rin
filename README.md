@@ -32,8 +32,8 @@
 
 <!-- 波浪分隔线（自制，自动适配明暗主题） -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
 </picture>
 
 <!-- ═══════════════ ② 关于我（自制：会打字的终端动画 · 明暗自适应） ═══════════════ -->
@@ -41,8 +41,8 @@
 ## 🔭 关于我
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/terminal-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/terminal-light.svg" width="760" alt="终端打字机动画" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/terminal-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/terminal-light.svg" width="760" alt="终端打字机动画" />
 </picture>
 
 | | |
@@ -54,8 +54,8 @@
 | 📫 **找到我** | [给我留言](https://github.com/Yumiko-rin/Yumiko-rin/issues) · [喵音小筑](https://bob-35z.pages.dev/) |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
 </picture>
 
 <!-- ═══════════════ ③ 技术栈 ═══════════════ -->
@@ -71,27 +71,27 @@
 [![](https://skillicons.dev/icons?i=git,githubactions,linux,vscode&theme=dark)](https://skillicons.dev)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
 </picture>
 
 <!-- ═══════════════ ④ 项目与小站（卡片由每日脚本依据仓库真实数据生成） ═══════════════ -->
 
 ## 🧸 项目与小站
 
-<a href="https://github.com/Yumiko-rin/douyin-spark-keeper"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-douyin-spark-keeper-dark.svg"><img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-douyin-spark-keeper-light.svg" width="400" alt="douyin-spark-keeper 项目卡片" /></picture></a>&nbsp;&nbsp;<a href="https://github.com/Yumiko-rin/md2card"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-md2card-dark.svg"><img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-md2card-light.svg" width="400" alt="md2card 项目卡片" /></picture></a>
+<a href="https://github.com/Yumiko-rin/douyin-spark-keeper"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/card-douyin-spark-keeper-dark.svg"><img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/card-douyin-spark-keeper-light.svg" width="400" alt="douyin-spark-keeper 项目卡片" /></picture></a>&nbsp;&nbsp;<a href="https://github.com/Yumiko-rin/md2card"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/card-md2card-dark.svg"><img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/card-md2card-light.svg" width="400" alt="md2card 项目卡片" /></picture></a>
 
-<a href="https://github.com/Yumiko-rin/dafeiyu-pet"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-dafeiyu-pet-dark.svg"><img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-dafeiyu-pet-light.svg" width="400" alt="dafeiyu-pet 项目卡片" /></picture></a>
+<a href="https://github.com/Yumiko-rin/dafeiyu-pet"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/card-dafeiyu-pet-dark.svg"><img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/card-dafeiyu-pet-light.svg" width="400" alt="dafeiyu-pet 项目卡片" /></picture></a>
 
 🎵 **[喵音小筑](https://bob-35z.pages.dev/)** —— 我的个人博客，记录代码与生活
 
-<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/badge-dafeiyu.svg" alt="最近更新" />
+<img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/badge-dafeiyu.svg" alt="最近更新" />
 &nbsp;
 <img src="https://img.shields.io/github/license/Yumiko-rin/dafeiyu-pet?style=flat-square&label=%E8%AE%B8%E5%8F%AF%E8%AF%81" alt="许可证" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
 </picture>
 
 <!-- ═══════════════ ⑤ GitHub 统计 ═══════════════ -->
@@ -105,19 +105,19 @@
 
 ### 🧬 数据全景（每日自动生成）
 
-<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/base.svg" width="480" alt="GitHub 数据全景" />
+<img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/github-metrics/base.svg" width="480" alt="GitHub 数据全景" />
 
 ### 🈯 语言构成
 
-<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/languages.svg" width="480" alt="语言构成" />
+<img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/github-metrics/languages.svg" width="480" alt="语言构成" />
 
 ### 📅 3D 提交日历
 
-<img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/github-metrics/isocalendar.svg" width="480" alt="3D 提交日历" />
+<img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/github-metrics/isocalendar.svg" width="480" alt="3D 提交日历" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
 </picture>
 
 <!-- ═══════════════ ⑥ 贪吃蛇（GitHub Actions 自动生成） ═══════════════ -->
@@ -125,20 +125,20 @@
 ## 🐍 贪吃蛇正在吞噬我的贡献图
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@output/github-contribution-grid-snake.svg" width="100%" alt="贡献贪吃蛇" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/output/github-contribution-grid-snake.svg" width="100%" alt="贡献贪吃蛇" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
 </picture>
 
 <!-- ═══════════════ ⑦ 页脚（自制动画 · 明暗自适应） ═══════════════ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/footer-dark.svg">
-  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/footer-light.svg" width="940" alt="页脚致谢" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/footer-dark.svg">
+  <img src="https://raw.githubusercontent.com/Yumiko-rin/Yumiko-rin/main/assets/footer-light.svg" width="940" alt="页脚致谢" />
 </picture>
 
 </div>

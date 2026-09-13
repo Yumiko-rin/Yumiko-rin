@@ -36,7 +36,7 @@ git push -u origin main
    - 配置好后，**每次推送 main 会自动生成**（也支持每日定时与手动触发），生成 4 张自托管数据卡到 `github-metrics/`；
 2. **贪吃蛇（零配置）**：仓库 → Actions → `Generate Snake` → Enable workflow → 右侧 `Run workflow` 手动跑一次（之后每日自动更新）。
 
-两者首次运行后，刷新个人主页即可看到贪吃蛇和数据卡（jsDelivr 缓存约 12 小时，等不及见下方 FAQ）。
+两者首次运行后，刷新个人主页即可看到贪吃蛇和数据卡（图片经 GitHub 代理分发，几分钟内自动可见）。
 
 ---
 
@@ -69,12 +69,10 @@ git push -u origin main
 ## ❓ 常见问题
 
 **Q：图片显示不出来 / 一直是旧的？**
-jsDelivr 有约 12 小时缓存。强制刷新：浏览器打开
-`https://pur.jsdelivr.net/gh/你的用户名/你的用户名@main/assets/banner.svg`
-（换成想刷新的文件路径）即可清除该文件缓存。
+README 图片经 GitHub 官方代理（camo）分发，数据源为 raw.githubusercontent.com，无长缓存，更新几分钟内自动生效。若本机仍显示旧图，是浏览器缓存，按 Ctrl+F5 强制刷新即可。
 
 **Q：SVG 在本地会动，传上去不动了？**
-GitHub 的图片代理会缓存，等缓存过期或用上面的 purge 链接刷新；另外确认文件确实推到了 `main` 分支。
+图片经 GitHub 代理分发有短暂缓存，等几分钟或 Ctrl+F5 强刷；另外确认文件确实推到了 `main` 分支。
 
 **Q：贪吃蛇区域裂图？**
 `output` 分支还没生成。去 Actions 手动跑一次 `Generate Snake`，确认运行成功后再刷新缓存。
