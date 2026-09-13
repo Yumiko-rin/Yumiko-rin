@@ -35,7 +35,7 @@
   <!-- 1. whoami -->
   <text class="mono ps1" x="24" y="72">$</text>
   <text class="mono cmd" x="40" y="72" clip-path="url(#c1)">whoami</text>
-  <text class="mono out" x="40" y="96" opacity="0"><animate id="o1" attributeName="opacity" begin="a1.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#58a6ff">Yumiko-rin</tspan> — 一名热爱造轮子的开发者</text>
+  <text class="mono out" x="40" y="96" opacity="0"><animate id="o1" attributeName="opacity" begin="a1.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#58a6ff">Mikuze</tspan> — 热爱创造，乐于分享</text>
 
   <!-- 2. cat motto.txt -->
   <text class="mono ps1" x="24" y="128">$</text>
@@ -45,17 +45,17 @@
   <!-- 3. ls skills/ -->
   <text class="mono ps1" x="24" y="184">$</text>
   <text class="mono cmd" x="40" y="184" clip-path="url(#c3)">ls skills/</text>
-  <text class="mono out" x="40" y="208" opacity="0"><animate id="o3" attributeName="opacity" begin="a3.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#ff7b72">C++</tspan>&#160;&#160;&#160;<tspan fill="#39d2c0">Python</tspan>&#160;&#160;&#160;<tspan fill="#ffb86c">JavaScript</tspan>&#160;&#160;&#160;<tspan fill="#58a6ff">Go</tspan>&#160;&#160;&#160;<tspan fill="#bc8cff">React</tspan></text>
+  <text class="mono out" x="40" y="208" opacity="0"><animate id="o3" attributeName="opacity" begin="a3.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#3fb950">TypeScript</tspan>&#160;&#160;<tspan fill="#58a6ff">JavaScript</tspan>&#160;&#160;<tspan fill="#39d2c0">Python</tspan>&#160;&#160;<tspan fill="#ffb86c">HTML</tspan>&#160;&#160;<tspan fill="#ff7b72">CSS</tspan>&#160;&#160;<tspan fill="#bc8cff">SQL</tspan></text>
 
   <!-- 4. git push -->
   <text class="mono ps1" x="24" y="240">$</text>
   <text class="mono cmd" x="40" y="240" clip-path="url(#c4)">git push origin main</text>
-  <text class="mono out" x="40" y="264" opacity="0"><animate id="o4" attributeName="opacity" begin="a4.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#3fb950">✔ 已推送 1,024 个提交</tspan><tspan fill="#8b949e"> (force with love)</tspan></text>
+  <text class="mono out" x="40" y="264" opacity="0"><animate id="o4" attributeName="opacity" begin="a4.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#3fb950">✔ 已推送 226+ 个提交</tspan><tspan fill="#8b949e"> (force with love)</tspan></text>
 
   <!-- 5. uptime -->
   <text class="mono ps1" x="24" y="296">$</text>
   <text class="mono cmd" x="40" y="296" clip-path="url(#c5)">uptime</text>
-  <text class="mono out" x="40" y="320" opacity="0"><animate id="o5" attributeName="opacity" begin="a5.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/>coding: <tspan fill="#58a6ff">1024 days</tspan> · coffee: <tspan fill="#ffb86c">∞ cups</tspan> · passion: <tspan fill="#ff7b72">still burning</tspan></text>
+  <text class="mono out" x="40" y="320" opacity="0"><animate id="o5" attributeName="opacity" begin="a5.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/>coding: <tspan fill="#58a6ff">197 days</tspan> · coffee: <tspan fill="#ffb86c">∞ cups</tspan> · passion: <tspan fill="#ff7b72">still burning</tspan></text>
 
   <!-- 跟随光标 -->
   <rect class="cursor" x="40" y="60" width="8" height="16">
