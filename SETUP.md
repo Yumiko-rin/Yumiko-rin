@@ -98,7 +98,7 @@ GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html
 ├── SETUP.md                  # 本文件
 ├── preview.html              # 本地动画预览页（不会被主页引用）
 ├── scripts/
-│   └── update-terminal.py    # 终端动画数据自动更新脚本（每日定时执行）
+│   └── update-terminal.py    # 每日数据脚本：终端数字、项目徽章、项目卡片
 ├── assets/                   # 全部手写动画 SVG（均明暗自适应）
 │   ├── terminal-dark.svg     # 终端打字机（暗色）
 │   ├── terminal-light.svg    # 终端打字机（亮色）
@@ -106,7 +106,9 @@ GitHub → 头像 → Switch appearance。本地预览直接打开 `preview.html
 │   ├── wave-light.svg        # 波浪（亮色主题）
 │   ├── footer-dark.svg       # 页脚（暗色主题）
 │   ├── footer-light.svg      # 页脚（亮色主题）
-│   └── badge-dafeiyu.svg     # 项目最近更新日期徽章（脚本自动生成）
+│   ├── badge-dafeiyu.svg     # 项目最近更新日期徽章（脚本自动生成）
+│   ├── card-dafeiyu-pet-dark.svg   # 项目卡片（脚本依据仓库真实数据生成）
+│   └── card-dafeiyu-pet-light.svg  # 项目卡片（亮色）
 └── .github/workflows/
     ├── snake.yml             # 每日生成贪吃蛇 → output 分支
     ├── metrics.yml           # 每日生成数据卡 → github-metrics/

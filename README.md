@@ -75,14 +75,16 @@
   <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/wave-light.svg" width="1200" alt="波浪分隔线" />
 </picture>
 
-<!-- ═══════════════ ④ 项目与小站 ═══════════════ -->
+<!-- ═══════════════ ④ 项目与小站（卡片由每日脚本依据仓库真实数据生成） ═══════════════ -->
 
 ## 🧸 项目与小站
 
-| | |
-|:---|:---|
-| 🐟 **[dafeiyu-pet](https://github.com/Yumiko-rin/dafeiyu-pet)** | 肥肥胖胖的大肥鱼 —— 一只 Python 写的小宠物 · MIT 开源 |
-| 🎵 **[喵音小筑](https://bob-35z.pages.dev/)** | 我的个人博客，记录代码与生活 |
+<a href="https://github.com/Yumiko-rin/dafeiyu-pet"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-dafeiyu-pet-dark.svg">
+  <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/card-dafeiyu-pet-light.svg" width="460" alt="dafeiyu-pet 项目卡片" />
+</picture></a>
+
+🎵 **[喵音小筑](https://bob-35z.pages.dev/)** —— 我的个人博客，记录代码与生活
 
 <img src="https://cdn.jsdelivr.net/gh/Yumiko-rin/Yumiko-rin@main/assets/badge-dafeiyu.svg" alt="最近更新" />
 &nbsp;

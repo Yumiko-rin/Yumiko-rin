@@ -28,6 +28,6 @@ jobs:
             echo "numbers unchanged, skip"
             exit 0
           fi
-          git add assets/terminal-*.svg assets/badge-*.svg
+          git add assets/terminal-*.svg assets/badge-*.svg assets/card-*.svg
           git commit -m "chore: 主页数据自动更新"
           git push
