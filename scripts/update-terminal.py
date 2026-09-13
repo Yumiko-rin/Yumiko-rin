@@ -42,7 +42,8 @@ def trunc(s, n):
     if len(s) <= n:
         return s
     cut = s[: n - 1]
-    if " " in cut[8:]:  # 在最后一个空格处断词，避免英文单词被截半
+    # 仅当截断点正处于英文单词中间时，才回退到最近的空格
+    if n < len(s) and cut[-1].isascii() and cut[-1].isalpha() and s[n - 1].isascii() and s[n - 1].isalpha():
         head, _, _ = cut.rpartition(" ")
         if len(head) >= 8:
             cut = head
