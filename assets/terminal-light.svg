@@ -50,12 +50,12 @@
   <!-- 4. git push -->
   <text class="mono ps1" x="24" y="240">$</text>
   <text class="mono cmd" x="40" y="240" clip-path="url(#c4)">git push origin main</text>
-  <text class="mono out" x="40" y="264" opacity="0"><animate id="o4" attributeName="opacity" begin="a4.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#1a7f37">✔ 已推送 27+ 个提交</tspan><tspan fill="#57606a"> (force with love)</tspan></text>
+  <text class="mono out" x="40" y="264" opacity="0"><animate id="o4" attributeName="opacity" begin="a4.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/><tspan fill="#1a7f37">✔ 已推送 29+ 个提交</tspan><tspan fill="#57606a"> (force with love)</tspan></text>
 
   <!-- 5. uptime -->
   <text class="mono ps1" x="24" y="296">$</text>
   <text class="mono cmd" x="40" y="296" clip-path="url(#c5)">uptime</text>
-  <text class="mono out" x="40" y="320" opacity="0"><animate id="o5" attributeName="opacity" begin="a5.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/>coding: <tspan fill="#0550ae">198 days</tspan> · coffee: <tspan fill="#bc4c00">∞ cups</tspan> · passion: <tspan fill="#cf222e">still burning</tspan></text>
+  <text class="mono out" x="40" y="320" opacity="0"><animate id="o5" attributeName="opacity" begin="a5.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/>coding: <tspan fill="#0550ae">199 days</tspan> · coffee: <tspan fill="#bc4c00">∞ cups</tspan> · passion: <tspan fill="#cf222e">still burning</tspan></text>
 
   <!-- 跟随光标 -->
   <rect class="cursor" x="40" y="60" width="8" height="16">
