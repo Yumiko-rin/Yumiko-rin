@@ -55,7 +55,7 @@
   <!-- 5. uptime -->
   <text class="mono ps1" x="24" y="296">$</text>
   <text class="mono cmd" x="40" y="296" clip-path="url(#c5)">uptime</text>
-  <text class="mono out" x="40" y="320" opacity="0"><animate id="o5" attributeName="opacity" begin="a5.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/>coding: <tspan fill="#58a6ff">206 days</tspan> · coffee: <tspan fill="#ffb86c">∞ cups</tspan> · passion: <tspan fill="#ff7b72">still burning</tspan></text>
+  <text class="mono out" x="40" y="320" opacity="0"><animate id="o5" attributeName="opacity" begin="a5.end+0.15s" dur="0.4s" from="0" to="1" fill="freeze"/>coding: <tspan fill="#58a6ff">207 days</tspan> · coffee: <tspan fill="#ffb86c">∞ cups</tspan> · passion: <tspan fill="#ff7b72">still burning</tspan></text>
 
   <!-- 跟随光标 -->
   <rect class="cursor" x="40" y="60" width="8" height="16">
